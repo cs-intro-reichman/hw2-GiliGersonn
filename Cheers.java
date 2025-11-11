@@ -3,7 +3,6 @@ public class Cheers {
         String name = args[0].toUpperCase();
         int num = Integer.parseInt(args[1]);
         String anLetters = "AEFHILMNORSX";
-
         for (int i = 0; i < name.length(); i++) {
             char letter = name.charAt(i);
             if (anLetters.indexOf(letter) >= 0) {
@@ -12,7 +11,6 @@ public class Cheers {
                 System.out.println("Give me a  " + letter + ": " + letter + "!");
             }
         }
-
         System.out.println("What does that spell?");
         String spell = name + "!!!";
         for (int i = 0; i < num; i++) {
@@ -20,3 +18,5 @@ public class Cheers {
         }
     }
 }
+
+

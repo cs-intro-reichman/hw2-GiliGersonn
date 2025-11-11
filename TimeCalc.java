@@ -16,7 +16,6 @@ public class TimeCalc {
         } else {
             hour_update_format = "" + new_hours;
         }
-
         if (new_min < 10) {
             min_update_format = "0" + new_min;
         } else {

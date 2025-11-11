@@ -1,4 +1,3 @@
-// Prints a crowd cheering output.
 public class Cheers {
     public static void main(String[] args) {
         String name = args[0].toUpperCase();
@@ -10,7 +9,7 @@ public class Cheers {
             if (anLetters.indexOf(letter) >= 0) {
                 System.out.println("Give me an " + letter + ": " + letter + "!");
             } else {
-                System.out.println("Give me a " + letter + ": " + letter + "!");
+                System.out.println("Give me a  " + letter + ": " + letter + "!");
             }
         }
 

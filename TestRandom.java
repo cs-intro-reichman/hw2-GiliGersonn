@@ -2,5 +2,28 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int n = Integer.parseInt(args[0]);
+		int above = 0;
+		int below = 0;
+		for (int i = 1; i<=n; i++){
+			double num = Math.random();
+			if (num > 0.5) {
+				above++;
+			} else {
+				below++;
+			}
+		}
+		System.out.println("> 0.5: " + above + " times");
+		System.out.println("< = 0.5: " + below + " times"); 
+
+		if (below == 0 ||  above ==0) {
+
+		}
+		else {
+			double ratio = (double) above / below;
+			System.out.println("ratio: " + ratio );
+
+		}
+		 	
 	}
 }
